@@ -1,18 +1,31 @@
 body, html {
     height: 100%;
-  }
-  .bg {
-    /* The image used */
     background-image: url("https://mdbootstrap.com/img/Photos/Others/images/91.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
   }
-  h5, p {
-      color: #e0eef2;
+
+strong{
+    font-size: 25px;
+}
+ p {
+      color: #f5f7f8;
+      font-size: 20px;
   }
+h5, .media {
+    color: #f5f7f8;
+    margin-top: 100px;
+}
+form {
+    margin-top: 50px;
+    color: #e0eef2;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h3 {
+    color: #e0eef2;
+    margin-left: 150px;
+    margin-right: 150px;
+}
